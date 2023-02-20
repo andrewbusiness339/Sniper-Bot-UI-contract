@@ -1,0 +1,24 @@
+{
+  "name": "multiple-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.3",
+    "dotenv": "^8.2.0",
+    "truffle": "5.4.29"
+  },
+  "scripts": {
+    "start": "cd client && npm start",
+    "install-pkg": "npm install && cd client && npm install && cd .."
+  },
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
